@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,  // Ou "emitDeclarationOnly": true
+    "lib": ["ES2020", "DOM"],
+    "strict": true
+  },
+  "include": ["src"]
+}
